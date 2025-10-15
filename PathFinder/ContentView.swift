@@ -9,16 +9,31 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView{
+            VStack {
+                Image("logo")
+                    .padding()
+                Text("Welcome to PathFinder .... discover the best paths")
+                Image("location")
+                NavigationLink("Next") {
+                    Next()
+                    
+                }
+                
+            }
+            
+            
+            .padding()
+            
+            
         }
-        .padding()
+    }
+    struct Next: View {
+        var body: some View {
+            
+        }
     }
 }
-
 #Preview {
     ContentView()
 }
