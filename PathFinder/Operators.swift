@@ -11,9 +11,10 @@ struct Operators: View {
     var body: some View {
         NavigationStack{
             List {
-                NavigationLink("ZUPCO"){}
+               
                 NavigationLink("ExtraCity"){}
-                NavigationLink("InterCity"){}
+
+                
             }
         }
     }
