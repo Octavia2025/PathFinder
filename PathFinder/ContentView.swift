@@ -16,7 +16,7 @@ struct ContentView: View {
                 Text("Welcome to PathFinder .... discover the best paths")
                 Image("location")
                 NavigationLink("Next") {
-                   
+                   Operators()
                     
                 }
                 
