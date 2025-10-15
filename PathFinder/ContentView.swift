@@ -16,7 +16,7 @@ struct ContentView: View {
                 Text("Welcome to PathFinder .... discover the best paths")
                 Image("location")
                 NavigationLink("Next") {
-                    Next()
+                   
                     
                 }
                 
@@ -28,11 +28,7 @@ struct ContentView: View {
             
         }
     }
-    struct Next: View {
-        var body: some View {
-            
-        }
-    }
+   
 }
 #Preview {
     ContentView()
