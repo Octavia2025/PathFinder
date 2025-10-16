@@ -10,19 +10,20 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView{
-            VStack {
-                Image("logo")
-                    .padding()
-                Text("Welcome to PathFinder .... discover the best paths")
-                Image("location")
-                NavigationLink("Next") {
-                   Operators()
+            ScrollView{
+                VStack {
+                    Image("logo")
+                        .padding()
+                    Text("Welcome to PathFinder .... discover the best paths")
+                    Image("location")
+                    NavigationLink("Next") {
+                        Operators()
+                        
+                    }
                     
                 }
                 
             }
-            
-            
             .padding()
             
             

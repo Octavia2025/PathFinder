@@ -10,15 +10,18 @@ import SwiftUI
 struct Operators: View {
     var body: some View {
         NavigationStack{
-            List {
-               
-                NavigationLink("ExtraCity"){}
-
-                
+        
+                List {
+                    
+                    NavigationLink("ExtraCity"){
+                        ExtraCityServices()
+                    }
+                    
+                    
+                }
             }
         }
     }
-}
 
 #Preview {
     Operators()
