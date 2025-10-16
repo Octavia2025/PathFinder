@@ -67,7 +67,9 @@ struct ExtraCityServices: View {
             .navigationTitle("Extra City Services")
             .searchable(text: $searchText, prompt: "Search routes, time or fare")
         }
+        
     }
+    
 }
 
 #Preview {
