@@ -16,6 +16,7 @@ struct ExtraCityServicesTable: Identifiable {
 
 struct ExtraCityServices: View {
     
+    
     @State private var searchText: String = ""
     
     private var servicesTable: [ExtraCityServicesTable] = [
@@ -66,6 +67,14 @@ struct ExtraCityServices: View {
             }
             .navigationTitle("Extra City Services")
             .searchable(text: $searchText, prompt: "Search routes, time or fare")
+            
+            NavigationLink("OfficeLocation"){
+                ZimbabweOfficesMapView()
+            }
+            .padding()
+            NavigationLink("Travel_Extras_and_fees"){
+                Travel_Extras_and_fees()
+            }
         }
         
     }
