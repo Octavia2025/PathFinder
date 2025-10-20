@@ -16,6 +16,9 @@ struct Operators: View {
                     NavigationLink("ExtraCity"){
                         ExtraCityServices()
                     }
+                    NavigationLink("InterCity"){
+                        
+                    }
 
                 }
             }
