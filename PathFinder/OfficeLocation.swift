@@ -39,7 +39,7 @@ struct ZimbabweOfficesMapView: View {
                         Annotation(office.name, coordinate: office.coordinate) {
                             VStack(spacing: 4) {
                                 Image(systemName: "mappin.circle.fill")
-                                    .foregroundColor(.red)
+                                    .foregroundColor(.blue)
                                     .font(.title2)
                                 Text(office.name)
                                     .font(.caption)
