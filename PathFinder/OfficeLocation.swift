@@ -16,7 +16,7 @@ struct OfficeLocation: Identifiable {
 
 struct ZimbabweOfficesMapView: View {
     // Define office locations
-    let offices = [
+    let offices = [ 
         OfficeLocation(name: "Harare Office", coordinate: CLLocationCoordinate2D(latitude: -17.8252, longitude: 31.0335)),
         OfficeLocation(name: "Bulawayo Office", coordinate: CLLocationCoordinate2D(latitude: -20.1323, longitude: 28.6265)),
         OfficeLocation(name: "Mutare Office", coordinate: CLLocationCoordinate2D(latitude: -18.9707, longitude: 32.6704)),
