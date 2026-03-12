@@ -77,7 +77,7 @@ This service allows you to rebook your tickets that you had booked for one desti
                         .frame(width: 200, height: 200)
                         .cornerRadius(20)
                     VStack(alignment: .leading) {
-                        Text("Excess Baggage:$10")
+                        Text("Excess Baggage: $10")
                             .font(.largeTitle)
                             .underline(true)
                             .padding(10)
