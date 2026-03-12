@@ -19,7 +19,9 @@ struct Operators: View {
                     NavigationLink("InterCity"){
                         
                     }
-
+                    NavigationLink("Stallion Cruise"){
+                        StallionCruiseServices()
+                    }
                 }
             }
         }
