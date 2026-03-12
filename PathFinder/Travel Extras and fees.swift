@@ -58,7 +58,7 @@ Unaccompanied Minor Service ensures safe and comfortable travel for children age
                         Text("Rebooking Fee: $3")
                             .font(.largeTitle)
                             .underline(true)
-                            .padding(10)
+                            
                         Text(
                            """
                              
@@ -92,7 +92,7 @@ This service allows you to rebook your tickets that you had booked for one desti
                         
                     }
                 }
-//                Spacer()
+
             }
         }
        
