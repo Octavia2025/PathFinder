@@ -17,13 +17,12 @@ struct Travel_Extras_and_fees: View {
                         .frame(width: 200, height: 200)
                         .cornerRadius(20)
                     VStack(alignment: .leading){
-                        Text("Lost Ticket Fee")
+                        Text("Lost Ticket Fee: $1")
                             .font(.largeTitle)
-                            .bold()
+                            .underline(true)
+                            .padding(10)
                         Text("Lost Ticket Fee Service allows passengers who have lost or mispaced their tickets to re-validate their bookings and receive replacement bus tickets for a nominal fee.")
-                        Text("$1")
-                            .font(.largeTitle)
-                            .bold()
+                       
                         
                     }
                 }
@@ -36,42 +35,38 @@ struct Travel_Extras_and_fees: View {
                         .frame(width: 200, height: 200)
                         .cornerRadius(20)
                     VStack(alignment: .leading) {
-                        Text("Unaccompanied Minor Fee")
+                        Text("Unaccompanied Minor Fee: $5")
                             .font(.largeTitle)
-                            .bold()
+                            .underline(true)
+                            .padding(10)
                         Text(
                            """
-                             
-                               Unaccompanied Minor Service ensures safe and comfortable travel for children aged 5-12 years. For this age group, the fee is mandatory. However, the service is optional for children aged 13-17.
+Unaccompanied Minor Service ensures safe and comfortable travel for children aged 5-12 years. For this age group, the fee is mandatory. However, the service is optional for children aged 13-17.
 """
                         )
-                        Text("$5")
-                            .font(.largeTitle)
-                            .bold()
                         
                         
                     }
                 }
+                .padding(10)
                 VStack{
                     Image("online")
                         .resizable()
                         .frame(width: 200, height: 200)
                         .cornerRadius(20)
                     VStack(alignment: .leading) {
-                        Text("Rebooking Fee")
+                        Text("Rebooking Fee: $3")
                             .font(.largeTitle)
-                            .bold()
+                            .underline(true)
+                            .padding(10)
                         Text(
                            """
                              
-                              This service allows you to rebook your tickets that you had booked for one destination and use it for a new destination. The service also allows you to reschedule for a new date and/or time, and is charged per passenger.
+This service allows you to rebook your tickets that you had booked for one destination and use it for a new destination. The service also allows you to reschedule for a new date and/or time, and is charged per passenger.
 
 """
                         )
-                        Text("$3")
-                            .font(.largeTitle)
-                            .bold()
-                        
+                       
                         
                     }
                 }
@@ -82,19 +77,17 @@ struct Travel_Extras_and_fees: View {
                         .frame(width: 200, height: 200)
                         .cornerRadius(20)
                     VStack(alignment: .leading) {
-                        Text("Excess Baggage")
+                        Text("Excess Baggage:$10")
                             .font(.largeTitle)
-                            .bold()
+                            .underline(true)
+                            .padding(10)
                         Text(
                            """
-                             
-                              This service allows you to rebook your tickets that you had booked for one destination and use it for a new destination. The service also allows you to reschedule for a new date and/or time, and is charged per passenger.
+This service allows you to rebook your tickets that you had booked for one destination and use it for a new destination. The service also allows you to reschedule for a new date and/or time, and is charged per passenger.
 
 """
                         )
-                        Text("$10")
-                            .font(.largeTitle)
-                            .bold()
+                        
                         
                         
                     }
@@ -102,7 +95,9 @@ struct Travel_Extras_and_fees: View {
 //                Spacer()
             }
         }
+       
     }
+    
 }
 
 #Preview {
