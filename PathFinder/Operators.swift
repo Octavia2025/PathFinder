@@ -12,10 +12,6 @@ struct Operators: View {
         NavigationStack{
         
                 List {
-                    
-                    NavigationLink("ExtraCity"){
-                        ExtraCityServices()
-                    }
 //                    NavigationLink("ExtraCity Office Location"){
 //                        ZimbabweOfficesMapView()
 //                    }

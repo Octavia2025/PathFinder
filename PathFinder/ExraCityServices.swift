@@ -71,6 +71,10 @@ struct ExtraCityServices: View {
             NavigationLink("OfficeLocation"){
                 ZimbabweOfficesMapView()
             }
+            .padding()
+            NavigationLink("Travel_Extras_and_fees"){
+                Travel_Extras_and_fees()
+            }
         }
         
     }

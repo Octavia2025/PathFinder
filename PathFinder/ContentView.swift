@@ -12,7 +12,7 @@ struct ContentView: View {
         NavigationView{
             ScrollView{
                 VStack {
-                    Image("logo")
+                    Image("logo") 
                         .padding()
                     Text("Welcome to PathFinder .... discover the best paths")
                     Image("location")
