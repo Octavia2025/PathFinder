@@ -79,9 +79,9 @@ struct StallionCruiseServices: View {
                             NavigationLink("Office Location") {
                                 MapView()
                             }
-                            NavigationLink("Travel Extras & Fees") {
-                                Travel_Extras_and_fees()
-                            }
+//                            NavigationLink("Travel Extras & Fees") {
+//                                Travel_Extras_and_fees()
+//                            }
                         }
                     }
                 }
