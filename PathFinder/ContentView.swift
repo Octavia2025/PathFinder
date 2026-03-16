@@ -15,6 +15,10 @@ struct ContentView: View {
                     Image("logo") 
                         .padding()
                     Text("Welcome to PathFinder .... discover the best paths")
+                        .font(.headline)
+                      .foregroundStyle(Color.orange)
+                      .bold(true)
+                        .padding(10)
                     Image("location")
                     NavigationLink("Next") {
                         Operators()
