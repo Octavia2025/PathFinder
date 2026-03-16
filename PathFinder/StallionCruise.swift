@@ -69,13 +69,25 @@ struct StallionCruiseServices: View {
             .navigationTitle("Stallion Cruise Services")
             .searchable(text: $searchText, prompt: "Search routes, time or fare")
             
-            NavigationLink("OfficeLocation"){
-                ZimbabweOfficesMapView()
+            NavigationStack {
+                VStack {
+                    
+                }
+                .toolbar {
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Menu("More") { 
+                            NavigationLink("Office Location") {
+                                ZimbabweOfficesMapView()
+                            }
+                            NavigationLink("Travel Extras & Fees") {
+                                Travel_Extras_and_fees()
+                            }
+                        }
+                    }
+                }
             }
-            NavigationLink("Travel_Extras_and_fees"){
-                Travel_Extras_and_fees()
-            }
-            .padding()
+
+
 
         }
         
