@@ -58,7 +58,7 @@ struct ZimbabweOfficesMapView: View {
             }
         }
         .ignoresSafeArea()
-        .navigationTitle("Zimbabwe Offices")
+        .navigationTitle("ExtraCity Zim Offices")
     }
 }
 
