@@ -23,7 +23,7 @@ struct MapView: View {
         OfficeLocation(name: "Mutare Office", coordinate: CLLocationCoordinate2D(latitude: -18.9707, longitude: 32.6704)),
         OfficeLocation(name: "Gweru Office", coordinate: CLLocationCoordinate2D(latitude: -19.45, longitude: 29.82)),
         OfficeLocation(name: "Kwekwe Office", coordinate: CLLocationCoordinate2D(latitude: -18.9286, longitude: 29.8146)),
-        OfficeLocation(name: "Victoria Falls  Office", coordinate: CLLocationCoordinate2D(latitude: -17.9244, longitude: 25.8567))
+        OfficeLocation(name: "Victoria Falls  Chinotimba Rank ", coordinate: CLLocationCoordinate2D(latitude: -17.9244, longitude: 25.8567))
     ]
 
     @State private var region = MKCoordinateRegion(

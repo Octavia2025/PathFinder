@@ -77,7 +77,7 @@ struct StallionCruiseServices: View {
                     ToolbarItem(placement: .navigationBarTrailing) {
                         Menu("More") { 
                             NavigationLink("Office Location") {
-                                ZimbabweOfficesMapView()
+                                MapView()
                             }
                             NavigationLink("Travel Extras & Fees") {
                                 Travel_Extras_and_fees()
