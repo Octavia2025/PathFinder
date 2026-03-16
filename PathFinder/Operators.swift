@@ -15,10 +15,10 @@ struct Operators: View {
                 NavigationLink(destination: ExtraCityServices()) {
                     Text("ExtraCity")
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
-                        .background(Color.white) // Or any color you prefer
+                        .background(Color.white)
                 }
                 
-                Divider() // Optional: adds a line between them
+                Divider() 
                 
                 NavigationLink(destination: Text("InterCity View")) {
                     Text("InterCity")
