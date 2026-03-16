@@ -72,6 +72,9 @@ struct StallionCruiseServices: View {
             NavigationLink("OfficeLocation"){
                 ZimbabweOfficesMapView()
             }
+            NavigationLink("Travel_Extras_and_fees"){
+                Travel_Extras_and_fees()
+            }
             .padding()
 
         }
