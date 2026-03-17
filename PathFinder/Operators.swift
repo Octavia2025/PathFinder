@@ -20,8 +20,8 @@ struct Operators: View {
                 
                 Divider() 
                 
-                NavigationLink(destination: Text("InterCity View")) {
-                    Text("InterCity")
+                NavigationLink(destination: Text("CAG View")) {
+                    Text("CAG")
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
                         .background(Color.white)
                 }
