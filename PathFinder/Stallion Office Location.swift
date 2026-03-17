@@ -18,12 +18,10 @@ struct StallionCruiseOfficeLocation: Identifiable {
 struct MapView: View {
     // Define office locations
     let offices = [
-        OfficeLocation(name: "Harare Office", coordinate: CLLocationCoordinate2D(latitude: -17.8252, longitude: 31.0335)),
-        OfficeLocation(name: "Bulawayo Office", coordinate: CLLocationCoordinate2D(latitude: -20.1323, longitude: 28.6265)),
-        OfficeLocation(name: "Mutare Office", coordinate: CLLocationCoordinate2D(latitude: -18.9707, longitude: 32.6704)),
-        OfficeLocation(name: "Gweru Office", coordinate: CLLocationCoordinate2D(latitude: -19.45, longitude: 29.82)),
-        OfficeLocation(name: "Kwekwe Office", coordinate: CLLocationCoordinate2D(latitude: -18.9286, longitude: 29.8146)),
-        OfficeLocation(name: "Victoria Falls  Chinotimba Rank ", coordinate: CLLocationCoordinate2D(latitude: -17.9244, longitude: 25.8567))
+        OfficeLocation(name: "Harare Office", coordinate: CLLocationCoordinate2D(latitude: -17.854045, longitude: 31.021516)),
+        OfficeLocation(name: "Bulawayo Office", coordinate: CLLocationCoordinate2D(latitude: -20.144415, longitude: 28.577232)),
+        OfficeLocation(name: "Gweru Office", coordinate: CLLocationCoordinate2D(latitude: -19.4585, longitude: 29.8162)),
+        
     ]
 
     @State private var region = MKCoordinateRegion(
