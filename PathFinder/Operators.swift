@@ -10,37 +10,76 @@ import SwiftUI
 struct Operators: View {
     var body: some View {
         NavigationStack {
-            VStack(spacing: 0) { // spacing: 0 removes gaps between items
-                
-                NavigationLink(destination: ExtraCityServices()) {
-                    Text("ExtraCity")
-                        .frame(maxWidth: .infinity, maxHeight: .infinity)
-                        .background(Color.white)
+            ScrollView { // ScrollView is better for different screen sizes
+                VStack(spacing: 20) {
+                    
+                    // 1. Extra City Button
+                    OperatorButton(
+                        title: "ExtraCity",
+                        color: .yellow,
+                        icon: "bus.fill",
+                        destination: AnyView(ExtraCityServices())
+                    )
+                    
+                    // 2. ZUPCO Button
+                    OperatorButton(
+                        title: "ZUPCO",
+                        color: .blue,
+                        icon: "bus",
+                        destination: AnyView(ZupcoServices())
+                    )
+                    
+                    // 3. Stallion Cruise Button
+                    OperatorButton(
+                        title: "Stallion Cruise",
+                        color: .purple,
+                        icon: "bus.fill",
+                        destination: AnyView(StallionCruiseServices())
+                    )
+                    
+                    Spacer()
                 }
-                
-                Divider() 
-                
-                NavigationLink(destination: Text("CAG View")) {
-                    Text("CAG")
-                        .frame(maxWidth: .infinity, maxHeight: .infinity)
-                        .background(Color.white)
-                }
-                
-                Divider()
-                
-                NavigationLink(destination: StallionCruiseServices()) {
-                    Text("Stallion Cruise")
-                        .frame(maxWidth: .infinity, maxHeight: .infinity)
-                        .background(Color.white)
-                }
+                .padding()
             }
-            .navigationTitle("Operators")
-            .navigationBarTitleDisplayMode(.large)
-            .font(Font.headline.bold())
+            .navigationTitle("Select Operator")
+            .background(Color(.systemGroupedBackground)) // Subtle grey background
         }
     }
 }
 
+// A reusable Button Component to keep your code "clean as one"
+struct OperatorButton: View {
+    var title: String
+    var color: Color
+    var icon: String
+    var destination: AnyView
+    
+    var body: some View {
+        NavigationLink(destination: destination) {
+            HStack(spacing: 20) {
+                Image(systemName: icon)
+                    .font(.title)
+                    .foregroundColor(.white)
+                    .frame(width: 60, height: 60)
+                    .background(color)
+                    .cornerRadius(15)
+                
+                Text(title)
+                    .font(.headline)
+                    .foregroundColor(.primary)
+                
+                Spacer()
+                
+                Image(systemName: "chevron.right")
+                    .foregroundColor(.secondary)
+            }
+            .padding()
+            .background(Color.white)
+            .cornerRadius(20)
+            .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 5)
+        }
+    }
+}
 
 #Preview {
     Operators()

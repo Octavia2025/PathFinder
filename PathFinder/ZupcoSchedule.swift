@@ -1,8 +1,16 @@
+//
+//  ZupcoSchedule.swift
+//  PathFinder
+//
+//  Created by octavia on 20/3/2026.
+//
+
+
 import SwiftUI
 
 // 1. Data Model for ZUPCO
 struct ZupcoSchedule: Identifiable, Codable {
-    let id: UUID = UUID()
+    var id: UUID = UUID()
     var route: String
     var time: String
     var fare: String
