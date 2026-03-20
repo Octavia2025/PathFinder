@@ -1,8 +1,16 @@
+//
+//  StallionCruiseSchedule.swift
+//  PathFinder
+//
+//  Created by octavia on 20/3/2026.
+//
+
+
 import SwiftUI
 
 // 1. Data Model matching your Stallion Cruise structure
 struct StallionCruiseSchedule: Identifiable, Codable {
-    let id: UUID = UUID()
+    var id: UUID = UUID()
     var route: String
     var time: String
     var fare: String
