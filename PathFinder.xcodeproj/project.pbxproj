@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		84C0EC022F6D800D0059AC20 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 84C0EC012F6D800D0059AC20 /* Supabase */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		46F7EBE92E9F838D0024AF9D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -29,9 +33,22 @@
 		46F7EBF22E9F838D0024AF9D /* PathFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PathFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		84C0EBFF2F6D7FB70059AC20 /* Exceptions for "PathFinder" folder in "PathFinder" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 46F7EBDA2E9F838A0024AF9D /* PathFinder */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		46F7EBDD2E9F838A0024AF9D /* PathFinder */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				84C0EBFF2F6D7FB70059AC20 /* Exceptions for "PathFinder" folder in "PathFinder" target */,
+			);
 			path = PathFinder;
 			sourceTree = "<group>";
 		};
@@ -52,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C0EC022F6D800D0059AC20 /* Supabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +96,7 @@
 				46F7EBDD2E9F838A0024AF9D /* PathFinder */,
 				46F7EBEB2E9F838D0024AF9D /* PathFinderTests */,
 				46F7EBF52E9F838D0024AF9D /* PathFinderUITests */,
+				84C0EC002F6D7FDF0059AC20 /* Frameworks */,
 				46F7EBDC2E9F838A0024AF9D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +109,13 @@
 				46F7EBF22E9F838D0024AF9D /* PathFinderUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		84C0EC002F6D7FDF0059AC20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +138,7 @@
 			);
 			name = PathFinder;
 			packageProductDependencies = (
+				84C0EC012F6D800D0059AC20 /* Supabase */,
 			);
 			productName = PathFinder;
 			productReference = 46F7EBDB2E9F838A0024AF9D /* PathFinder.app */;
@@ -405,6 +432,7 @@
 				DEVELOPMENT_TEAM = RWKFF65Z26;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PathFinder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -437,6 +465,7 @@
 				DEVELOPMENT_TEAM = RWKFF65Z26;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PathFinder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -594,6 +623,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84C0EC012F6D800D0059AC20 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84C0EBFB2F6D7A730059AC20 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 46F7EBD32E9F838A0024AF9D /* Project object */;
 }
