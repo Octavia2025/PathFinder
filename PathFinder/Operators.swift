@@ -60,7 +60,7 @@ struct OperatorButton: View {
                 Image(systemName: icon)
                     .font(.title)
                     .foregroundColor(.white)
-                    .frame(width: 60, height: 60)
+                    .frame(width: 200, height: 150)
                     .background(color)
                     .cornerRadius(15)
                 
