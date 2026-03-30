@@ -43,13 +43,13 @@ struct ExtraCityServices: View {
     // 3. Search logic
     var filteredServices: [BusSchedules] {
         if searchText.isEmpty {
-            return servicesTable 
+            return servicesTable
         } else {
             return servicesTable.filter {
                 $0.route.localizedCaseInsensitiveContains(searchText) ||
                 $0.time.localizedCaseInsensitiveContains(searchText) ||
                 $0.fare.localizedCaseInsensitiveContains(searchText)
-            } 
+            }
         }
     }
     

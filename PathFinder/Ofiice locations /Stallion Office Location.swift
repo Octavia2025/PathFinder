@@ -23,12 +23,12 @@ struct MapView: View {
         OfficeLocation(name: "Gweru Office", coordinate: CLLocationCoordinate2D(latitude: -19.4585, longitude: 29.8162)),
         
     ]
-
+    
     @State private var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(latitude: -19.0154, longitude: 29.1549),
         span: MKCoordinateSpan(latitudeDelta: 5.0, longitudeDelta: 5.0)
     )
-
+    
     var body: some View {
         Group {
             if #available(iOS 17.0, *) {

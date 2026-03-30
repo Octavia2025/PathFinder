@@ -16,7 +16,7 @@ struct OfficeLocation: Identifiable {
 
 struct ZimbabweOfficesMapView: View {
     // Define office locations
-    let offices = [ 
+    let offices = [
         OfficeLocation(name: "Harare Office", coordinate: CLLocationCoordinate2D(latitude: -17.8252, longitude: 31.0335)),
         OfficeLocation(name: "Bulawayo Office", coordinate: CLLocationCoordinate2D(latitude: -20.1323, longitude: 28.6265)),
         OfficeLocation(name: "Mutare Office", coordinate: CLLocationCoordinate2D(latitude: -18.9707, longitude: 32.6704)),
@@ -24,12 +24,12 @@ struct ZimbabweOfficesMapView: View {
         OfficeLocation(name: "Kwekwe Office", coordinate: CLLocationCoordinate2D(latitude: -18.9286, longitude: 29.8146)),
         OfficeLocation(name: "Victoria Falls  Office", coordinate: CLLocationCoordinate2D(latitude: -17.9244, longitude: 25.8567))
     ]
-
+    
     @State private var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(latitude: -19.0154, longitude: 29.1549),
         span: MKCoordinateSpan(latitudeDelta: 5.0, longitudeDelta: 5.0)
     )
-
+    
     var body: some View {
         Group {
             if #available(iOS 17.0, *) {

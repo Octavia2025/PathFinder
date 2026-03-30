@@ -22,12 +22,12 @@ struct Travel_Extras_and_fees: View {
                             .underline(true)
                             .padding(10)
                         Text("Lost Ticket Fee Service allows passengers who have lost or mispaced their tickets to re-validate their bookings and receive replacement bus tickets for a nominal fee.")
-                       
+                        
                         
                     }
                 }
                 Spacer()
-                .padding()
+                    .padding()
                 
                 VStack{
                     Image("child")
@@ -58,7 +58,7 @@ Unaccompanied Minor Service ensures safe and comfortable travel for children age
                         Text("Rebooking Fee: $3")
                             .font(.largeTitle)
                             .underline(true)
-                            
+                        
                         Text(
                            """
                              
@@ -66,7 +66,7 @@ This service allows you to rebook your tickets that you had booked for one desti
 
 """
                         )
-                       
+                        
                         
                     }
                 }
@@ -92,10 +92,10 @@ This service allows you to rebook your tickets that you had booked for one desti
                         
                     }
                 }
-
+                
             }
         }
-       
+        
     }
     
 }
