@@ -27,6 +27,7 @@
 		46F7EBDB2E9F838A0024AF9D /* PathFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PathFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F7EBE82E9F838D0024AF9D /* PathFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PathFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F7EBF22E9F838D0024AF9D /* PathFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PathFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A92A2E2F7AB382001B0F4A /* PathFinder.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PathFinder.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -56,6 +57,11 @@
 		46F7EBF52E9F838D0024AF9D /* PathFinderUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PathFinderUITests;
+			sourceTree = "<group>";
+		};
+		84A92A2F2F7AB382001B0F4A /* PathFinder-main */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PathFinder-main";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,6 +94,7 @@
 		46F7EBD22E9F838A0024AF9D = {
 			isa = PBXGroup;
 			children = (
+				84A92A2F2F7AB382001B0F4A /* PathFinder-main */,
 				46F7EBDD2E9F838A0024AF9D /* PathFinder */,
 				46F7EBEB2E9F838D0024AF9D /* PathFinderTests */,
 				46F7EBF52E9F838D0024AF9D /* PathFinderUITests */,
@@ -102,6 +109,13 @@
 				46F7EBDB2E9F838A0024AF9D /* PathFinder.app */,
 				46F7EBE82E9F838D0024AF9D /* PathFinderTests.xctest */,
 				46F7EBF22E9F838D0024AF9D /* PathFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A92A602F7AB383001B0F4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +144,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				46F7EBDD2E9F838A0024AF9D /* PathFinder */,
+				84A92A2F2F7AB382001B0F4A /* PathFinder-main */,
 			);
 			name = PathFinder;
 			packageProductDependencies = (
@@ -221,6 +236,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 46F7EBDC2E9F838A0024AF9D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 84A92A602F7AB383001B0F4A /* Products */;
+					ProjectRef = 84A92A2E2F7AB382001B0F4A /* PathFinder.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				46F7EBDA2E9F838A0024AF9D /* PathFinder */,
@@ -417,6 +438,8 @@
 		};
 		46F7EBFD2E9F838D0024AF9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 46F7EBDD2E9F838A0024AF9D /* PathFinder */;
+			baseConfigurationReferenceRelativePath = Config.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -426,6 +449,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PathFinder/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,6 +474,8 @@
 		};
 		46F7EBFE2E9F838D0024AF9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 46F7EBDD2E9F838A0024AF9D /* PathFinder */;
+			baseConfigurationReferenceRelativePath = Config.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +485,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PathFinder/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
