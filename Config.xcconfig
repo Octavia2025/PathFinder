@@ -1,0 +1,13 @@
+//
+//  Config.xcconfig
+//  PathFinder
+//
+//  Created by octavia on 31/3/2026.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+API_KEY = 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
+
+
+
