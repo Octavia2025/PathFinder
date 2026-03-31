@@ -10,6 +10,8 @@
 		84C0EC022F6D800D0059AC20 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 84C0EC012F6D800D0059AC20 /* Supabase */; };
 		84D7120F2F7BC4BC008026E2 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7120E2F7BC4BC008026E2 /* Configuration.swift */; };
 		84D712112F7BC68C008026E2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 84D712102F7BC68C008026E2 /* README.md */; };
+		84D7126B2F7BC8C9008026E2 /* Build (Automatic) PathFinder_2026-03-30T15-47-49.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84D712642F7BC8C9008026E2 /* Build (Automatic) PathFinder_2026-03-30T15-47-49.txt */; };
+		84D7126C2F7BC8C9008026E2 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 84D712652F7BC8C9008026E2 /* Config.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 		46F7EBF22E9F838D0024AF9D /* PathFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PathFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D7120E2F7BC4BC008026E2 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		84D712102F7BC68C008026E2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		84D712642F7BC8C9008026E2 /* Build (Automatic) PathFinder_2026-03-30T15-47-49.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Build (Automatic) PathFinder_2026-03-30T15-47-49.txt"; sourceTree = "<group>"; };
+		84D712652F7BC8C9008026E2 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -99,6 +103,8 @@
 			children = (
 				84D712102F7BC68C008026E2 /* README.md */,
 				84D7120E2F7BC4BC008026E2 /* Configuration.swift */,
+				84D712642F7BC8C9008026E2 /* Build (Automatic) PathFinder_2026-03-30T15-47-49.txt */,
+				84D712652F7BC8C9008026E2 /* Config.xcconfig */,
 				46F7EBDD2E9F838A0024AF9D /* PathFinder */,
 				46F7EBEB2E9F838D0024AF9D /* PathFinderTests */,
 				46F7EBF52E9F838D0024AF9D /* PathFinderUITests */,
@@ -248,6 +254,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D7126B2F7BC8C9008026E2 /* Build (Automatic) PathFinder_2026-03-30T15-47-49.txt in Resources */,
+				84D7126C2F7BC8C9008026E2 /* Config.xcconfig in Resources */,
 				84D712112F7BC68C008026E2 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
