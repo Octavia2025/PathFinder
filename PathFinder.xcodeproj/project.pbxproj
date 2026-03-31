@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		84C0EC022F6D800D0059AC20 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 84C0EC012F6D800D0059AC20 /* Supabase */; };
+		84D7120F2F7BC4BC008026E2 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7120E2F7BC4BC008026E2 /* Configuration.swift */; };
+		84D712112F7BC68C008026E2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 84D712102F7BC68C008026E2 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,8 @@
 		46F7EBDB2E9F838A0024AF9D /* PathFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PathFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F7EBE82E9F838D0024AF9D /* PathFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PathFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F7EBF22E9F838D0024AF9D /* PathFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PathFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D7120E2F7BC4BC008026E2 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		84D712102F7BC68C008026E2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -93,6 +97,8 @@
 		46F7EBD22E9F838A0024AF9D = {
 			isa = PBXGroup;
 			children = (
+				84D712102F7BC68C008026E2 /* README.md */,
+				84D7120E2F7BC4BC008026E2 /* Configuration.swift */,
 				46F7EBDD2E9F838A0024AF9D /* PathFinder */,
 				46F7EBEB2E9F838D0024AF9D /* PathFinderTests */,
 				46F7EBF52E9F838D0024AF9D /* PathFinderUITests */,
@@ -242,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D712112F7BC68C008026E2 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D7120F2F7BC4BC008026E2 /* Configuration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

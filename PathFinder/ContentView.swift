@@ -71,3 +71,14 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+struct ContentView2: View {
+    var body: some View {
+        VStack {
+            Text("PathFinder Ready")
+        }
+        .onAppear {
+            // This will print your token to the Xcode console at the bottom
+            print("Successfully loaded API Key: \(Configuration.apiKey)")
+        }
+    }
+}
