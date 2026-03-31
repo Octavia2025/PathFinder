@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 #  <#Title#>
 
+=======
+>>>>>>> 0bb144322cae99751eb817bf13c6a59d89146c3e
 # PathFinder
 
 PathFinder is a local transport schedule app designed to help commuters in Zimbabwe view ZUPCO and intercity bus schedules, routes, and fares.
