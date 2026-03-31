@@ -45,3 +45,6 @@ fastlane/test_output
 
 # Code coverage data
 *.gcno
+
+# Ignore the config file
+Config.xcconfig
