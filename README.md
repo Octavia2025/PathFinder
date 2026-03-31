@@ -25,3 +25,36 @@ To run this project locally, you must configure your GitHub Personal Access Toke
 1. Clone the repository:
    ```bash
    git clone https://github.com
+# PathFinder 🇿🇼
+
+**PathFinder** is a streamlined transit companion designed to take the guesswork out of commuting in Zimbabwe. From local **ZUPCO** shuttles to intercity coaches, PathFinder provides real-time access to routes, pricing, and timing.
+
+## 🚀 Key Features
+
+*   **Real-Time Filtering:** Built with **Swift Generics** for lightning-fast performance across operators.
+*   **Smart Location Services:** Automatically identifies the nearest pick-up points using CoreLocation.
+*   **Fare Transparency:** Up-to-date pricing in **USD** to prevent overcharging.
+*   **Digital Directory:** Moving from word-of-mouth schedules to a verified digital list.
+
+## 📋 Functional Requirements
+
+
+| Feature | Requirement | Acceptance Criteria |
+| :--- | :--- | :--- |
+| **Route List** | Display all available transport routes. | Users can scroll through 10+ local routes. |
+| **Search & Filter** | Real-time suburb/operator search. | Results update instantly as the user types. |
+| **Fares & Times** | Departure intervals & costs. | Prices in USD; "Next Departure" clearly visible. |
+
+## 👤 User Stories
+
+- **Daily Commuter:** Plan morning departures from home to CBD.
+- **Intercity Traveler:** Filter by operators like *Extra City* for long-distance trips.
+- **Student:** Check exact fares before reaching the rank to have change ready.
+- **Newcomer:** Use GPS to auto-detect current suburb/region.
+
+## 🛠 Technical Details
+
+- **Language:** Swift 5.0+
+- **Frameworks:** SwiftUI, CoreLocation
+- **Architecture:** MVVM (recommended)
+
