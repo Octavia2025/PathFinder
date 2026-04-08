@@ -47,7 +47,7 @@ struct Operators: View {
     }
 }
 
-// A reusable Button Component to keep your code "clean as one"
+//MARK: -  A reusable Button Component to keep your code "clean as one"
 struct OperatorButton: View {
     var title: String
     var color: Color
