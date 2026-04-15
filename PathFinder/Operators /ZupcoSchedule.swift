@@ -80,7 +80,7 @@ struct ZupcoServices: View {
                             ZimbabweOfficesMapView()
                         }
                         NavigationLink("Travel Extras & Fees") {
-                            Travel_Extras_and_fees()
+                            TravelExtrasView()
                         }
                     } label: {
                         Label("More", systemImage: "ellipsis.circle")
