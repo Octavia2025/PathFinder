@@ -79,9 +79,9 @@ struct ZupcoServices: View {
                         NavigationLink("Office Location") {
                             ZimbabweOfficesMapView()
                         }
-                        NavigationLink("Travel Extras & Fees") {
-                            TravelExtrasView()
-                        }
+//                        NavigationLink("Travel Extras & Fees") {
+//                            TravelExtrasView()
+//                        }
                     } label: {
                         Label("More", systemImage: "ellipsis.circle")
                     }
